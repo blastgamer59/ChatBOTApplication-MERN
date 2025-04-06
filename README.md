@@ -119,7 +119,7 @@ Add it to your .env file in the backend under GEMINI_API_KEY.
 Let me know if you'd like to add Docker setup, deployment guide, or how to use the chatbot instructions too!
 
 
-Live Link : https://mernstactchatbotapplication.netlify.app/ │
+ ### Live Link : https://mernstactchatbotapplication.netlify.app/ │
  
 
 
