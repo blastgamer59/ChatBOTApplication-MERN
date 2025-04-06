@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+#root {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.app {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #202123;
+    text-decoration: none;
+    margin: 0;
+}
+.otp-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 120px 20px 20px;
+    text-align: center;
+}
+.otp-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+.otp-title {
+    font-size: 32px;
+    color: #202123;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -30px;
+}
+.otp-description {
+    color: #353740;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.otppassword-input {
+    width: 100%;
+}
+.otppassword-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #10a37f;
+}
+.otppassword-input.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #10a37f;
+}
+.otppassword-input .MuiInputLabel-root.Mui-focused {
+    color: #10a37f;
+}
+.otp-button {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: #10a37f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "OpenAI Sans", "SF Pro", -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 24px 0;
+    transition: background-color 0.2s ease;
+}
+.otp-button:hover {
+    background-color: #0E906F;
+}
+.otpoai-footer {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: nowrap; 
+    width: auto; 
+    height: 57px;
+    background-color: transparent;
+    color: rgb(16, 163, 127);
+    padding: 12px 0px 24px; 
+    margin: 0px; 
+    border: none; 
+    box-shadow: none; 
+    position: static; 
+    z-index: auto;
+    margin-top: 150px;
+}
+.otpoai-footer .otpseparator {
+    margin: 0 10px;
+    color: rgb(110, 110, 128);
+}
+.otpoai-footer a {
+    text-decoration: none; 
+    color: rgb(16, 163, 127);
+    font-size: small;
+}
+.otp-requirements {
+    border: 1px solid #ccc;
+    padding: 12px; 
+    background-color: #ffffff; 
+    max-width: 352px; 
+}
+.otp-requirements-title {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 6px;
+    text-align: start;
+}
+.otp-requirement {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #333;
+}
+.valid {
+    color: green;
+}
+.invalid {
+    color: red;
+}

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 120px 20px 20px;
+  text-align: center;
+}
+.mail-icon{
+  width: 50px;
+  height: 50px;
+  color: #10a37f;
+  margin-bottom: 15px;
+  margin-top: 150px;
+}
+.checkmail-h2{
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 36px;
+  color: rgb(45, 51, 58);
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 15px;
+}
+.mail-text{
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22.4px;
+  color: rgb(45, 51, 58);
+  text-align: center;
+  text-transform: none;
+  margin: 0px 0px 16px;
+  padding: 0px;
+  display: block;
+  margin-bottom: 15px;
+}
+.resend-btn{
+  width: 100%;
+  padding: 14px 16px;
+  margin: 8px 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16.9px;
+  color: #202123;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  margin-bottom: 15px;
+}
+.resend-btn:hover {
+  background-color: #f7f7f8;
+}
+.checkemailoai-footer {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: nowrap; 
+  width: auto; 
+  height: 57px;
+  background-color: transparent;
+  color: rgb(16, 163, 127);
+  padding: 12px 0px 24px; 
+  margin: 0px; 
+  border: none; 
+  box-shadow: none; 
+  position: static; 
+  z-index: auto;
+  margin-top: 150px;
+}
+.checkemailoai-footer .checkemailseparator {
+  margin: 0 10px;
+  color: rgb(110, 110, 128);
+}
+.checkemailoai-footer a {
+  text-decoration: none; 
+  color: rgb(16, 163, 127);
+  font-size: small;
+}
+  

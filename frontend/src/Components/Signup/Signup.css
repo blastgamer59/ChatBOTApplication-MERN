@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #202123;
+  text-decoration: none;
+  margin: 0;
+
+}
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 120px 20px 20px;
+  text-align: center;
+}
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+}
+.signup-title {
+  font-size: 32px;
+  color: #202123;
+  margin-bottom: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 110px;
+}
+.input-field {
+  width: 100%;
+}
+.input-field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #10a37f;
+}
+.input-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #10a37f;
+}
+.input-field .MuiInputLabel-root.Mui-focused {
+  color: #10a37f;
+}
+.continue-button {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "OpenAI Sans", "SF Pro", -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 24px 0;
+  transition: background-color 0.2s ease;
+}
+.continue-button:hover {
+  background-color: #0d906e;
+}
+.continue-button:active {
+  background-color: #0b805f;
+}
+.login-text {
+  color: #353740;
+  margin: 24px 0;
+  font-size: 14px;
+}
+.login-link {
+  color: rgb(16, 163, 127);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 2px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 24px 0;
+}
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+.divider-text {
+  padding: 0 12px;
+  color: #6e6e80;
+  font-size: 14px;
+}
+.oauth-button {
+  width: 100%;
+  padding: 14px 16px;
+  margin: 8px 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  cursor: pointer;
+  font-size: 16.9px;
+  color: #202123;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  gap: 12px;
+}
+.oauth-button:hover {
+  background-color: #f7f7f8;
+}
+.oauth-button:active {
+  background-color: #f0f0f1;
+}
+.oauth-button .oauth-logo {
+  width: 20px; 
+  height: 20px;
+  display: flex;
+  margin-left: 60px;
+}
+.oauth-button span {
+  flex-grow: 1;
+  text-align: left;
+}
+.oai-footer .separator {
+  margin: 0 10px;
+  color: rgb(110, 110, 128);
+}
+.oai-footer a {
+  text-decoration: none; 
+  color: rgb(16, 163, 127);
+  font-size: small;
+}
+.go-back-link{
+  text-decoration: none; 
+  color: #10a37f;
+  font-size: medium;
+}
+.requirements {
+  border: 1px solid #ccc;
+  padding: 12px; 
+  background-color: #ffffff; 
+  max-width: 352px; 
+}
+.requirements-title {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 6px;
+  text-align: start;
+}
+.requirement {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.valid {
+  color: green;
+}
+.invalid {
+  color: red;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 16px;
+  }
+  .signup-form {
+    padding: 16px;
+  }
+  .signup-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .input-field,
+  .continue-button,
+  .oauth-button {
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+  .oauth-button img {
+    width: 18px;
+    height: 18px;
+  }
+}
+/* Small height screens */
+@media (max-height: 700px) {
+  .signup-container {
+    padding: 12px;
+  }
+  .signup-form {
+    padding: 12px;
+  }
+  .signup-title {
+    margin-bottom: 20px;
+  }
+  .continue-button {
+    margin: 16px 0;
+  }
+  .login-text {
+    margin: 16px 0;
+  }
+  .divider {
+    margin: 16px 0;
+  }
+  .oauth-button img {
+      width: 18px;
+      height: 18px;
+  }
+}
