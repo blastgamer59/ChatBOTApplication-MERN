@@ -12,7 +12,8 @@ Designed to be both powerful and user-friendly, the application enables natural 
 - **AI-Powered Conversations**: Utilize Google's Gemini API for natural language understanding and generation
 - **Real-time Chat Interface**: Instant message delivery with typing indicators
 - **Session Persistence**: Conversation history saved and user can retrive their chats
-- **User Authentication**: Secure login/signup system with Firebase Authentication 
+- **User Authentication**: Secure login/signup system with Firebase Authentication
+- **Password Recovery**: Users can request a password reset link via email to securely regain access to their accounts
 
 ### Advanced Capabilities
 - **Speech-to-Text**: Voice input capability using Window Speech Recognition API
