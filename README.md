@@ -27,13 +27,13 @@ Designed to be both powerful and user-friendly, the application enables natural 
 - **React**: JavaScript library for building the user interface
 - **Redux**: State management for the application
 - **Socket.io frontend**: Real-time communication capabilities
-- **CSS**: Utility-first CSS framework for styling
+- **CSS**: Custom styling with standard CSS
 - **Axios**: Promise-based HTTP client for API requests
 
 ### Backend
 - **Node.js**: JavaScript runtime for server-side logic
 - **Express**: Web application framework for Node.js
-- **MongoDB**: NoSQL database for storing user data and chat history
+- **MongoDB Atlas**: Cloud database service for storing user data and chat history
 - **Socket.io**: Real-time bidirectional event-based communication
 
 ### AI Integration
