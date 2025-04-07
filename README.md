@@ -49,16 +49,3 @@ Designed to be both powerful and user-friendly, the application enables natural 
 
 Experience the ChatBot Application in action: [https://mernstactchatbotapplication.netlify.app/](https://mernstactchatbotapplication.netlify.app/)
 
----
-
-## Getting Started
-
-Check out the [Installation Guide](./docs/installation.md) for detailed setup instructions.
-
-## Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](./CONTRIBUTING.md) before submitting a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
