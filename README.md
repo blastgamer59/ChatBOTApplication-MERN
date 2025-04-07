@@ -28,6 +28,7 @@ Designed to be both powerful and user-friendly, the application enables natural 
 - **Redux**: State management for the application
 - **Socket.io frontend**: Real-time communication capabilities
 - **CSS**: Custom styling with standard CSS
+- **Material UI**: Specifically used for dialog modals and pop-up interfaces
 - **Axios**: Promise-based HTTP client for API requests
 
 ### Backend
