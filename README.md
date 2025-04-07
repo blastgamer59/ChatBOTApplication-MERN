@@ -57,7 +57,6 @@ npm start
 cd frontend
 npm start
 ```
-
 # Start the server which will serve the built frontend
 cd ../server
 npm start
@@ -65,24 +64,7 @@ npm start
 ## Gemini API Integration
 The application uses Google's Gemini API to process natural language input and generate human-like responses. The integration is handled through a middleware service that manages API calls, rate limiting, and error handling.
 
-## Project Structure
-```
-chatbotapplication/
-├── frontend/               # React frontend
-│   ├── public/             # Static files
-│   ├── src/                # Source files
-│   │   ├── components/     # UI components
-│   │   ├── services/       # API services
-│   │   ├── App.js          # Main component
-│   │   └── index.js        # Entry point
-│   └── package.json        # Dependencies
-│
-├── server/                 # Node.js backend
-│   ├── app.js              # Express application
-│   └── package.json        # Dependencies
-│
 
-```
 
 ## Contributing
 1. Fork the repository
