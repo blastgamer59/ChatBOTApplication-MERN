@@ -1,87 +1,62 @@
 # ChatBot Application
 
 ## Overview
-ChatBot Application is a modern, interactive conversational AI platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Google's Gemini API integration. This application provides users with an intuitive interface to interact with an AI-powered chatbot capable of understanding and responding to a wide range of queries.
+
+The ChatBot Application is a modern, intelligent conversational interface built on the MERN stack (MongoDB, Express, React, Node.js) with Google's Gemini AI API integration. This application provides users with a responsive and intuitive chatbot experience.
+
+Designed to be both powerful and user-friendly, the application enables natural conversations, content generation, and assistance across a wide range of topics. The MERN architecture ensures scalability, performance, and a seamless user experience across devices.
 
 ## Features
-- **AI-Powered Conversations**: Leveraging Google's Gemini API for natural language understanding and generation
-- **User Authentication**: Secure login and registration system
-- **Conversation History**: Save and retrieve past conversations
-- **Responsive Design**: Seamless experience across desktop and mobile devices
-- **Real-time Responses**: Instant message delivery and responses
+
+### Core Functionality
+- **AI-Powered Conversations**: Utilize Google's Gemini API for natural language understanding and generation
+- **Real-time Chat Interface**: Instant message delivery with typing indicators
+- **Session Persistence**: Conversation history saved and user can retrive their chats
+- **User Authentication**: Secure login/signup system with Firebase Authentication 
+
+### Advanced Capabilities
+- **Speech-to-Text**: Voice input capability using Window Speech Recognition API
+
+### User Experience
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
 ## Tech Stack
-- **Frontend**: React.js, Redux for state management, CSS for styling
-- **Backend**: Node.js with Express.js framework
-- **Database**: MongoDB for storing user data and conversation history
-- **AI Integration**: Google Gemini API
-- **Authentication**: Firebase
-- **Deployment**: For Backend Render.com and For Frontend Netlify
 
-## Prerequisites
-- Node.js (v16.x or higher)
-- MongoDB (v4.x or higher)
-- Google Gemini API key
+### Frontend
+- **React**: JavaScript library for building the user interface
+- **Redux**: State management for the application
+- **Socket.io frontend**: Real-time communication capabilities
+- **CSS**: Utility-first CSS framework for styling
+- **Axios**: Promise-based HTTP client for API requests
 
-## Installation
+### Backend
+- **Node.js**: JavaScript runtime for server-side logic
+- **Express**: Web application framework for Node.js
+- **MongoDB**: NoSQL database for storing user data and chat history
+- **Socket.io**: Real-time bidirectional event-based communication
 
-### Clone the repository
-```bash
-git clone https://github.com/blastgamer59/ChatBOTApplication-MERN.git
-cd frontend
-```
-
-### Install dependencies
-```bash
-# Install backend dependencies
-cd server
-npm install
-
-# Install frontend dependencies
-cd frontend
-npm install
-```
-
-### Environment Variables
-Create `.env` files in both the server and client directories:
-
-### Running the Application
-
-#### Development Mode
-```bash
-# Start the backend server
-cd server
-npm start
-
-# Start the frontend in another terminal
-cd frontend
-npm start
-```
-# Start the server which will serve the built frontend
-cd ../server
-npm start
-```
-## Gemini API Integration
-The application uses Google's Gemini API to process natural language input and generate human-like responses. The integration is handled through a middleware service that manages API calls, rate limiting, and error handling.
+### AI Integration
+- **Gemini API**: Google's multimodal AI model for natural language processing
 
 
+### DevOps
+- **Netlify**: Frontend hosting and deployment
+- **Render**: Backend hosting and deployment
+
+## Live Demo
+
+Experience the ChatBot Application in action: [https://mernstactchatbotapplication.netlify.app/](https://mernstactchatbotapplication.netlify.app/)
+
+---
+
+## Getting Started
+
+Check out the [Installation Guide](./docs/installation.md) for detailed setup instructions.
 
 ## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+
+Contributions are welcome! Please read our [Contributing Guidelines](./CONTRIBUTING.md) before submitting a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgements
-- [Google Gemini API](https://ai.google.dev/)
-- [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-- [React.js](https://reactjs.org/)
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
- 
-
-
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
